@@ -12,12 +12,12 @@ public class Book extends Document implements Borrowable {
 
     @Override
     void displayInfo() {
-        System.out.println("Livre: "+getTitle()+" ("+getYear()+") - Auteur: "+auteur);
+        System.out.println("Livre: "+getTitle()+" ("+getYear()+") - Auteur: "+auteur+"\n");
     }
     
     @Override
     public void borrow() {
-        System.out.println(getTitle()+" est empruntable !");
+        System.out.println(getTitle()+" est empruntable !"+"\n");
     }
 
     @Override

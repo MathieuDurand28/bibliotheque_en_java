@@ -20,6 +20,8 @@ public class Library {
 
     void showBorrowableItems()
     {
+        //System.out.println("\n");
+        System.out.println("-- Empruntables: ");
         for (Document paper : docs)
         {
             if (paper instanceof Borrowable)

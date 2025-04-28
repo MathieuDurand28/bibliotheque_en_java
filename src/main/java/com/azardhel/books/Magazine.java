@@ -11,6 +11,6 @@ public class Magazine extends Document {
 
     @Override
     void displayInfo() {
-       System.out.print("Magazine: "+getTitle()+" (Numéro: +"+numero+", "+getYear()+")");
+       System.out.print("Magazine: "+getTitle()+" (Numéro: "+numero+", "+getYear()+")"+"\n");
     }
 }
